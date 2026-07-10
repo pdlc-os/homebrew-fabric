@@ -6,12 +6,12 @@
 # release and pushes the result to the tap — edit this template, never the
 # rendered formula in the tap repo.
 #
-# Placeholders: 0.2.0 v0.2.0 d4bfb24387926774fd97ac238f665823520ac55c0446a4abaf7ec9be2d184498 a36d8c52462c90d95cb8e1467dab5e84ed3c01850ffda1dade4a46ba3dd3981b
-#               26ef4622234e09c2fbf777129e90f6e85a8a5dfa3893fc5f22803f2f514ea7ca 087a20d9db5d42b42a20a6236201b621ba5a5c5bee8409c386f6b48e9edc3d98
+# Placeholders: 0.3.0 v0.3.0 0eb181317c3d38d0ec24d0665c10e4784a054a82af61a04b1ce242ed3b7f3446 8c94c4744fb10ac919813321b446a23941766e483924e25e626a70435d597bdf
+#               29a88f238890760003fd0857b681b05c38c59e12734c5c2238ad816dc8707cf8 2e8dda25727402a1cb0f6417d42635b5108692af9d2a3c9e836c33f70b8be4a7
 class Fabric < Formula
   desc "Container-based orchestration platform for concurrent LLM code agents"
   homepage "https://github.com/pdlc-os/fabric"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   livecheck do
@@ -21,23 +21,23 @@ class Fabric < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/pdlc-os/fabric/releases/download/v0.2.0/fabric-darwin-arm64.tar.gz"
-      sha256 "d4bfb24387926774fd97ac238f665823520ac55c0446a4abaf7ec9be2d184498"
+      url "https://github.com/pdlc-os/fabric/releases/download/v0.3.0/fabric-darwin-arm64.tar.gz"
+      sha256 "0eb181317c3d38d0ec24d0665c10e4784a054a82af61a04b1ce242ed3b7f3446"
     end
     on_intel do
-      url "https://github.com/pdlc-os/fabric/releases/download/v0.2.0/fabric-darwin-amd64.tar.gz"
-      sha256 "a36d8c52462c90d95cb8e1467dab5e84ed3c01850ffda1dade4a46ba3dd3981b"
+      url "https://github.com/pdlc-os/fabric/releases/download/v0.3.0/fabric-darwin-amd64.tar.gz"
+      sha256 "8c94c4744fb10ac919813321b446a23941766e483924e25e626a70435d597bdf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pdlc-os/fabric/releases/download/v0.2.0/fabric-linux-arm64.tar.gz"
-      sha256 "26ef4622234e09c2fbf777129e90f6e85a8a5dfa3893fc5f22803f2f514ea7ca"
+      url "https://github.com/pdlc-os/fabric/releases/download/v0.3.0/fabric-linux-arm64.tar.gz"
+      sha256 "29a88f238890760003fd0857b681b05c38c59e12734c5c2238ad816dc8707cf8"
     end
     on_intel do
-      url "https://github.com/pdlc-os/fabric/releases/download/v0.2.0/fabric-linux-amd64.tar.gz"
-      sha256 "087a20d9db5d42b42a20a6236201b621ba5a5c5bee8409c386f6b48e9edc3d98"
+      url "https://github.com/pdlc-os/fabric/releases/download/v0.3.0/fabric-linux-amd64.tar.gz"
+      sha256 "2e8dda25727402a1cb0f6417d42635b5108692af9d2a3c9e836c33f70b8be4a7"
     end
   end
 
